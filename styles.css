@@ -29,6 +29,7 @@ header {
     top: 20px;
     padding: 0 15px;
     z-index: 1;
+    margin: 0 auto;
 }
 
 nav.nav__header {
