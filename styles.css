@@ -29,7 +29,6 @@ header {
     top: 20px;
     padding: 0 15px;
     z-index: 1;
-    margin: 0 auto;
 }
 
 nav.nav__header {
@@ -40,6 +39,7 @@ nav.nav__header {
     border-radius: 100px;
     background-color: #60C1BD;
     padding: 20px 15px;
+    width: 100%;
 }
 
 a.logo {
