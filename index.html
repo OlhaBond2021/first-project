@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Верстка макета</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -10,13 +11,16 @@
 <section class="section__1">
     <div class="wrapper">
         <header>
+            <a class="logo">IndeVets</a>
             <nav class="nav__header">
-                <a class="logo">IndeVets</a>
                 <a class="nav" href="">Veterinarians</a>
                 <a class="nav" href="">Hospitals</a>
                 <a class="nav" href="">Why IndeVets?</a>
-                <button class="button">Login</button>
             </nav>
+            <div class="mob__box__header">
+                <a class="button" href="#">Login</a>
+                <span class="hamburger"></span>
+            </div>
         </header>
         <div class="veterinary__staffing">
             <div class="text__staffing">
@@ -34,163 +38,163 @@
         </div>
     </div>
 </section>
-<main>
-    <section class="section__2">
-        <div class="main__wrapper">
-            <div class="vet__hosp">
-                <div class="vet" data-aos="fade-right" data-aos-duration="500">
-                    <img class="animals" src="./images/vet.png" alt="жінка-з-котом">
-                    <div class="box__vet__hosp">
-                        <h4 class="vethosp">Veterinarians</h4>
-                        <p class="text__vet__hosp">Apply to become an<br> IndeVet</p>
-                    </div>
-                </div>
-                <div class="hosp" data-aos="fade-left" data-aos-duration="500">
-                    <img class="animals" src="./images/hosp.png" alt="собака-кіт">
-                    <div class="box__vet__hosp">
-                        <h4 class="vethosp">Hospitals</h4>
-                        <p class="text__vet__hosp">Become an IndeVets<br> partner</p>
-                    </div>
+<section class="section__2">
+    <div class="wrapper">
+        <div class="vet__hosp">
+            <div class="vet" data-aos="fade-right" data-aos-duration="500">
+                <img class="animals" src="./images/vet.png" alt="жінка-з-котом">
+                <div class="box__vet__hosp">
+                    <h4 class="vethosp">Veterinarians</h4>
+                    <p class="text__vet__hosp">Apply to become an IndeVet</p>
                 </div>
             </div>
-            <div class="top__section__2">
-                <p class="top__text__section__2">Let’s start at the beginning</p>
-                <h2 class="top__title__section__2" data-aos="zoom-in">How IndeVets Works</h2>
-                <div class="drum">
-                    <img class="img__drum" data-aos="zoom-in-right" src="./images/drum.png" alt="барабан">
-                    <div class="text__drum">
-                        <p class="over__title__text">Step one...</p>
-                        <h3 class="middle__title">We hire great vets.</h3>
-                        <p class="middle__text">Not just any doctor can become an IndeVet. We thoroughly vet and hire
-                            only
-                            the best, highly
-                            qualified doctors. <span class="best">They become a part of our team</span>, earn
-                            market-leading
-                            pay and benefits, and
-                            gain the freedom to choose when and where they work.</p>
-                    </div>
+            <div class="hosp" data-aos="fade-left" data-aos-duration="500">
+                <img class="animals" src="./images/hosp.png" alt="собака-кіт">
+                <div class="box__vet__hosp">
+                    <h4 class="vethosp">Hospitals</h4>
+                    <p class="text__vet__hosp">Become an IndeVets partner</p>
                 </div>
-                <div class="telescope">
-                    <div class="text__telescope">
-                        <p class="over__title__text">Next...</p>
-                        <h3 class="middle__title">We partner with the best workplaces.</h3>
-                        <p class="middle__text">We’ve built partnerships with more than 800 forward-thinking,
-                            <span class="best">best-in-class
+            </div>
+        </div>
+        <div class="top__section__2">
+            <p class="top__text__section__2">Let’s start at the beginning</p>
+            <h2 class="top__title__section__2" data-aos="zoom-in">How IndeVets Works</h2>
+            <div class="drum">
+                <img class="img__drum" data-aos="zoom-in-right" src="./images/drum.png" alt="барабан">
+                <div class="text__drum">
+                    <p class="over__title__text">Step one...</p>
+                    <h3 class="middle__title">We hire great vets.</h3>
+                    <p class="middle__text">Not just any doctor can become an IndeVet. We thoroughly vet and hire
+                        only
+                        the best, highly
+                        qualified doctors. <span class="best">They become a part of our team</span>, earn
+                        market-leading
+                        pay and benefits, and
+                        gain the freedom to choose when and where they work.</p>
+                </div>
+            </div>
+            <div class="telescope">
+                <div class="text__telescope">
+                    <p class="over__title__text">Next...</p>
+                    <h3 class="middle__title">We partner with the best workplaces.</h3>
+                    <p class="middle__text">We’ve built partnerships with more than 800 forward-thinking,
+                        <span class="best">best-in-class
                         hospitals.</span> We expect
-                            a lot from our vets, so the same applies to our hospitals. We partner with hospitals
-                            that
-                            not
-                            only have high medical standards, but also have a commitment to maintaining a healthy
-                            workplace
-                            for staff and patients.</p>
-                    </div>
-                    <img class="img__telescope" data-aos="zoom-in-left" src="./images/telescope.png" alt="телескоп">
+                        a lot from our vets, so the same applies to our hospitals. We partner with hospitals
+                        that
+                        not
+                        only have high medical standards, but also have a commitment to maintaining a healthy
+                        workplace
+                        for staff and patients.</p>
                 </div>
-                <div class="embrace">
-                    <img class="img__embrace" data-aos="zoom-in-right" src="./images/embrace.png" alt="обійми">
-                    <div class="text__embrace">
-                        <p class="over__title__text">The result?</p>
-                        <h3 class="middle__title">Happy vets. Happy hospitals. Better medicine.</h3>
-                        <p class="middle__text">When doctors are in control of their schedules, they’re happier. Same
-                            goes
-                            for hospital teams who
-                            can breathe easier about their staffing. Together, our doctors and hospital partners are
-                            making
-                            the world of veterinary medicine a better, happier place.</p>
+                <img class="img__telescope" data-aos="zoom-in-left" src="./images/telescope.png" alt="телескоп">
+            </div>
+            <div class="embrace">
+                <img class="img__embrace" data-aos="zoom-in-right" src="./images/embrace.png" alt="обійми">
+                <div class="text__embrace">
+                    <p class="over__title__text">The result?</p>
+                    <h3 class="middle__title">Happy vets. Happy hospitals. Better medicine.</h3>
+                    <p class="middle__text">When doctors are in control of their schedules, they’re happier. Same
+                        goes
+                        for hospital teams who
+                        can breathe easier about their staffing. Together, our doctors and hospital partners are
+                        making
+                        the world of veterinary medicine a better, happier place.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="grey__section__3">
+    <div class="wrapper">
+        <div class="container__section__3">
+            <img class="img__vets" data-aos="fade-right"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine"
+                 data-aos-duration="1500"
+                 src="./images/vets.png" alt="мітінг">
+            <div class="mission">
+                <div class="text__together">
+                    <p class="top__text__section__2">Who We Are</p>
+                    <h2 class="top__title__section__2 title__section__3">Our Mission</h2>
+                </div>
+                <p class="text1__section__3">Our team is united by a mission to make veterinary medicine better.
+                    We’ve
+                    been through the long rotations, the office drama, and the last-minute schedule changes. It
+                    drove
+                    the joy out of our jobs and, more importantly, out of our lives. So we took it upon ourselves to
+                    make a change.</p>
+                <button class="button__section__3">Why IndeVets?</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="green__section__4">
+    <div class="wrapper">
+        <div class="bike__section__4">
+            <img class="img__bike" data-aos="fade-right" data-aos-duration="1000" src="./images/bike.png"
+                 alt="велосипед">
+            <div class="box__section__4">
+                <h2 class="title__section__4">Sounds pretty good, right? Let’s do this.</h2>
+                <div class="mini__box__together">
+                    <div class="under1__title__section__4">
+                        <p class="text__section__4">I want to be an IndeVet. Take me to the application page!</p>
+                    </div>
+                    <div class="under2__title__section__4">
+                        <p class="text__section__4">We want to be one of your awesome hospital partners.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="grey__section__3">
-        <div class="main__wrapper">
-            <div class="container__section__3">
-                <img class="img__vets" data-aos="fade-right"
-                     data-aos-offset="300"
-                     data-aos-easing="ease-in-sine"
-                     data-aos-duration="1500"
-                     src="./images/vets.png" alt="мітінг">
-                <div class="mission">
-                    <div class="text__together">
-                        <p class="top__text__section__2">Who We Are</p>
-                        <h2 class="top__title__section__2 title__section__3">Our Mission</h2>
-                    </div>
-                    <p class="text1__section__3">Our team is united by a mission to make veterinary medicine better.
-                        We’ve
-                        been through the long rotations, the office drama, and the last-minute schedule changes. It
-                        drove
-                        the joy out of our jobs and, more importantly, out of our lives. So we took it upon ourselves to
-                        make a change.</p>
-                    <button class="button__section__3">Why IndeVets?</button>
+    </div>
+</section>
+<section class="section__5">
+    <div class="wrapper">
+        <div class="last__container">
+            <div class="over__footer__section__5">
+                <h6 class="title__section__5">Veterinarians</h6>
+                <a class="link__section__5" href="#">Explore IndeVets</a>
+                <a class="link__section__5" href="#">Become an IndeVet</a>
+                <a class="link__section__5" href="#">FAQs for Veterinarians</a>
+            </div>
+            <div class="over__footer__section__5">
+                <h6 class="title__section__5">Hospitals</h6>
+                <a class="link__section__5" href="#">Partnering with IndeVets</a>
+                <a class="link__section__5" href="#">Become a Partner</a>
+                <a class="link__section__5" href="#">Frequently Asked Questions</a>
+            </div>
+            <div class="box__img__connection">
+                <img class="img__connection" data-aos="flip-left" data-aos-duration="1000" src="./images/connection.png"
+                     alt="connection">
+            </div>
+            <div class="over__footer__section__5 class__find__us">
+                <h6 class="title__section__5">Find Us</h6>
+                <div class="mini__box">
+                    <a class="link__section__5 line__height__19" href="#">990 Spring Garden Street</a>
+                    <a class="link__section__5 line__height__19" href="#">Suite 402</a>
+                    <a class="link__section__5 line__height__19" href="#">Philadelphia, PA 19123</a>
+                </div>
+                <div class="mini__box">
+                    <a class="link__section__5 line__height__19" href="#">(833) IndeVets</a>
+                    <a class="link__section__5 line__height__19" href="#">(833) 463-3838</a>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="green__section__4">
-        <div class="main__wrapper">
-            <div class="bike__section__4">
-                <img class="img__bike" data-aos="fade-right" data-aos-duration="1000" src="./images/bike.png"
-                     alt="велосипед">
-                <div class="box__section__4">
-                    <h2 class="title__section__4">Sounds pretty good, right? Let’s do this.</h2>
-                    <div class="mini__box__together">
-                        <div class="under1__title__section__4">
-                            <p class="text__section__4">I want to be an IndeVet. Take me to the application page!</p>
-                        </div>
-                        <div class="under2__title__section__4">
-                            <p class="text__section__4">We want to be one of your awesome hospital partners.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section__5">
-        <div class="main__wrapper">
-            <div class="last__container">
-                <div class="over__footer__section__5">
-                    <h6 class="title__section__5">Veterinarians</h6><br>
-                    <a class="link__section__5" href="">Explore IndeVets</a><br>
-                    <a class="link__section__5" href="">Become an IndeVet</a><br>
-                    <a class="link__section__5" href="">FAQs for Veterinarians</a>
-                </div>
-                <div class="over__footer__section__5">
-                    <h6 class="title__section__5">Hospitals</h6><br>
-                    <a class="link__section__5" href="">Partnering with IndeVets</a><br>
-                    <a class="link__section__5" href="">Become a Partner</a><br>
-                    <a class="link__section__5" href="">Frequently Asked Questions</a>
-                </div>
-                <div class="box__img__connection">
-                    <img class="img__connection" data-aos="flip-left" data-aos-duration="1000" src="./images/connection.png" alt="connection">
-                </div>
-
-                <div class="over__footer__section__5 class__find__us">
-                    <h6 class="title__section__5">Find Us</h6>
-                    <div class="mini__box">
-                        <a class="link__section__5 line__height__19" href="">990 Spring Garden Street</a>
-                        <a class="link__section__5 line__height__19" href="">Suite 402</a>
-                        <a class="link__section__5 line__height__19" href="">Philadelphia, PA 19123</a>
-                    </div>
-                    <div class="mini__box">
-                        <a class="link__section__5 line__height__19" href="">(833) IndeVets</a>
-                        <a class="link__section__5 line__height__19" href="">(833) 463-3838</a>
-                    </div>
-                </div>
-            </div>
-            <footer>
-                <nav class="box__footer">
-                    <a class="link__section__5" href="">Why IndeVets?</a>
-                    <a class="link__section__5" href="">Blog</a>
-                    <a class="link__section__5" href="">Jobs</a>
-                    <a class="link__section__5" href="">Contact Us</a>
-                    <a class="link__section__5" href="">Login</a>
-                    <a class="link__section__5" href="">Privacy Policy</a>
-                </nav>
-                <p class="last__text">© IndeVets 2021</p>
-            </footer>
-        </div>
-    </section>
-</main>
+    </div>
+</section>
+<footer>
+    <div class="wrapper">
+        <nav class="box__footer">
+            <a class="link__section__5" href="">Why IndeVets?</a>
+            <a class="link__section__5" href="">Blog</a>
+            <a class="link__section__5" href="">Jobs</a>
+            <a class="link__section__5" href="">Contact Us</a>
+            <a class="link__section__5" href="">Login</a>
+            <a class="link__section__5" href="">Privacy Policy</a>
+        </nav>
+        <p class="last__text">© IndeVets 2021</p>
+    </div>
+</footer>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
