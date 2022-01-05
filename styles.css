@@ -449,11 +449,6 @@ p.last__text {
         max-width: 425px;
     }
 
-    .section__1 {
-        background-color: #284854;
-        padding: 100px 0;
-    }
-
     a.logo {
         font-size: 20px;
         line-height: 25px;
@@ -478,6 +473,11 @@ p.last__text {
 
     .hamburger {
         display: block;
+    }
+
+    .section__1 {
+        background-color: #284854;
+        padding: 100px 0;
     }
 
     div.veterinary__staffing {
