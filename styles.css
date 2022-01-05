@@ -472,6 +472,252 @@ p.last__text {
 
     .section__1 {
         background-color: #284854;
+        padding: 50px 0;
+    }
+
+    div.veterinary__staffing {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h1.main__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    p.text__1 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-right: 0;
+    }
+
+    div.img__scooter {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    img.scooter {
+        max-width: 200px;
+    }
+
+    section.section__2 {
+        padding-top: 20px;
+    }
+
+    div.vet__hosp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    div.vet, div.hosp {
+        padding: 20px 20px 20px 10px;
+        gap: 15px;
+        margin: 0;
+    }
+
+    h4.vethosp {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    p.text__vet__hosp {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    p.top__text__section__2 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    h2.top__title__section__2 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 40px;
+    }
+
+    div.drum, div.telescope, div.embrace {
+        max-width: 425px;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    div.telescope {
+        flex-direction: column-reverse;
+    }
+
+    div.text__telescope {
+        padding-right: 0;
+        padding-left: 20px;
+    }
+
+    p.over__title__text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    h3.middle__title {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    p.middle__text {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    span.best {
+        text-decoration: underline;
+    }
+
+    img.img__drum, img.img__embrace, img.img__telescope {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    section.grey__section__3 {
+        padding: 40px 0;
+    }
+
+    div.container__section__3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    img.img__vets {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    div.mission {
+        max-width: 425px;
+        gap: 20px;
+    }
+
+    p.text1__section__3 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    button.button__section__3 {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 5px 10px;
+        margin: 0 auto;
+        transform: translateX(-20px);
+    }
+
+    section.green__section__4 {
+        background-color: #8BC441;
+        padding: 40px 0;
+    }
+
+    div.bike__section__4 {
+        flex-direction: column;
+    }
+
+    div.box__section__4 {
+        max-width: 425px;
+        gap: 20px;
+    }
+
+    img.img__bike {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    h2.title__section__4 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    p.text__section__4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .section__5 {
+        padding: 40px 0;
+    }
+
+    div.last__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 0;
+    }
+
+    div.box__img__connection {
+        margin: 0;
+    }
+
+    img.img__connection {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    a.link__section__5 {
+        line-height: 20px;
+        padding: 0 15px;
+    }
+
+    footer {
+        padding-top: 0;
+        max-width: 425px;
+    }
+
+    nav.box__footer {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    p.last__text {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 991px) {
+
+    div.header__wrapper {
+        max-width: 425px;
+    }
+
+    a.logo {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .nav__header {
+        display: none;
+    }
+
+    .button {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 5px 10px;
+    }
+
+    .mob__box__header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .section__1 {
+        background-color: #284854;
         padding: 100px 0;
     }
 
@@ -680,9 +926,6 @@ p.last__text {
         text-align: center;
     }
 
-}
-
-@media screen and (min-width: 425px) and (max-width: 1440px) {
 
 }
 
