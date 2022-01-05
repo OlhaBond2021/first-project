@@ -18,10 +18,6 @@ header {
 }
 
 div.header__wrapper {
-    /*position: fixed;*/
-    /*top: 20px;*/
-    /*left: 50%;*/
-    /*transform: translateX(-50%);*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +27,6 @@ div.header__wrapper {
     background: #60C1BD;
     padding: 20px 15px;
     margin: 0 auto;
-    /*z-index: 1;*/
 }
 
 .section__1 {
