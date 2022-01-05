@@ -38,6 +38,7 @@ div.header__wrapper {
     border-radius: 100px;
     background: #60C1BD;
     padding: 20px 15px;
+    margin: 0 auto;
 }
 
 a.logo {
